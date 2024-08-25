@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
   <!-- GitHub -->
   <remote  name="github"
            fetch="https://github.com/" />
@@ -12,6 +11,11 @@
   <!-- Project Blaze -->
   <remote  name="blaze"
            fetch="https://github.com/ProjectBlaze"
+           revision="14" />
+		   
+  <!-- Lixkote Customized Stuff -->
+  <remote  name="lixstuff"
+           fetch="https://github.com/lixkote"
            revision="14" />
 
   <!-- Gitea (Project Blaze) -->
@@ -88,8 +92,8 @@
 
   <!-- Remote Packages -->
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="blaze" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="blaze" />
-  <project path="packages/apps/BlazeHouse" name="packages_apps_BlazeHouse" remote="blaze" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="lixstuff" />
+  <project path="packages/apps/BlazeHouse" name="packages_apps_Tweaks" remote="lixstuff" />
   <project path="packages/apps/BlazeWallpaperStub" name="packages_apps_BlazeWallpaperStub" revision="14" remote="blaze" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="blaze" />
   <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="blaze" />
