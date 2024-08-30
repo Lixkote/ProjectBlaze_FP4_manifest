@@ -13,8 +13,8 @@
            fetch="https://github.com/ProjectBlaze"
            revision="14" />
 		   
-  <!-- Lixkote Customized Stuff -->
-  <remote  name="lixstuff"
+  <!-- Lixkote -->
+  <remote  name="lix"
            fetch="https://github.com/lixkote"
            revision="14" />
 
@@ -92,8 +92,8 @@
 
   <!-- Remote Packages -->
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="blaze" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="lixstuff" />
-  <project path="packages/apps/BlazeHouse" name="packages_apps_Tweaks" remote="lixstuff" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="lix" />
+  <project path="packages/apps/BlazeHouse" name="packages_apps_BlazeHouse" remote="lix" />
   <project path="packages/apps/BlazeWallpaperStub" name="packages_apps_BlazeWallpaperStub" revision="14" remote="blaze" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="blaze" />
   <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="blaze" />
